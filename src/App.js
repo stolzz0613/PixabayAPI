@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Formulario from "./components/Formulario";
 import ListadoImagenes from "./components/ListadoImagenes";
 
 function App() {
-
   const [busqueda, setBusqueda] = useState("");
   const [imagenes, setImagenes] = useState([]);
   const [pagina, setPagina] = useState(1);
@@ -14,32 +13,63 @@ function App() {
       if (busqueda === "") return;
       const imagenesPorPagina = 30;
       const key = "17612582-3fd67665bc6afd3f6b6a62b89";
-      const url = `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}`;
+      const url = `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}&page=${pagina}`;
 
       const response = await fetch(url);
       const result = await response.json();
 
       setImagenes(result.hits);
-      console.log(result)
-      const calcularTotalPaginas = Math.ceil(result.totalHits / imagenesPorPagina);
+      console.log(result);
+      const calcularTotalPaginas = Math.ceil(
+        result.totalHits / imagenesPorPagina
+      );
       setTotalPaginas(calcularTotalPaginas);
-    }
-    consultarApi();
 
-  }, [busqueda])
+      const jumbotron = document.querySelector(".jumbotron");
+      jumbotron.scrollIntoView({ behavior: "smooth" })
+    };
+    consultarApi();
+  }, [busqueda, pagina]);
+
+  const paginaAnterior = () => {
+    const nuevaPagina = pagina - 1;
+
+    if (nuevaPagina === 0) return;
+    setPagina(nuevaPagina);
+  }
+
+  const paginaSiguiente = () => {
+    const nuevaPagina = pagina + 1;
+    if (nuevaPagina > totalPaginas) return;
+    setPagina(nuevaPagina);
+  }
+
+
 
   return (
     <div className="container">
       <div className="jumbotron">
         <p className="lead text-center">Buscador de Images</p>
-        <Formulario
-          setBusqueda={setBusqueda}
-        />
+        <Formulario setBusqueda={setBusqueda} />
       </div>
       <div className="row justify-content-center">
-        <ListadoImagenes
-          imagenes={imagenes}
-        />
+        <ListadoImagenes imagenes={imagenes} />
+
+        {(pagina === 1) ? null : (
+          <button
+            type="button"
+            className="btn btn-info mr-1"
+            onClick={paginaAnterior}
+          >&laquo; Anterior</button>
+        )}
+
+        {(pagina === totalPaginas) ? null : (
+          <button
+            type="button"
+            className="btn btn-info mr-1"
+            onClick={paginaSiguiente}
+          >Siguiente &raquo;</button>
+        )}
       </div>
     </div>
   );
