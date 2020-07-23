@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/PixabayAPI/static/js/main.e5d01700.chunk.js",
-    "main.js.map": "/PixabayAPI/static/js/main.e5d01700.chunk.js.map",
+    "main.js": "/PixabayAPI/static/js/main.914de7ad.chunk.js",
+    "main.js.map": "/PixabayAPI/static/js/main.914de7ad.chunk.js.map",
     "runtime-main.js": "/PixabayAPI/static/js/runtime-main.b9461853.js",
     "runtime-main.js.map": "/PixabayAPI/static/js/runtime-main.b9461853.js.map",
-    "static/js/2.bc9a87cf.chunk.js": "/PixabayAPI/static/js/2.bc9a87cf.chunk.js",
-    "static/js/2.bc9a87cf.chunk.js.map": "/PixabayAPI/static/js/2.bc9a87cf.chunk.js.map",
+    "static/js/2.27f7220a.chunk.js": "/PixabayAPI/static/js/2.27f7220a.chunk.js",
+    "static/js/2.27f7220a.chunk.js.map": "/PixabayAPI/static/js/2.27f7220a.chunk.js.map",
     "index.html": "/PixabayAPI/index.html",
-    "precache-manifest.43c5e7fea29fddf87f6804c0d820b628.js": "/PixabayAPI/precache-manifest.43c5e7fea29fddf87f6804c0d820b628.js",
+    "precache-manifest.3606d1df060db2a2dbd0a6edddd52d25.js": "/PixabayAPI/precache-manifest.3606d1df060db2a2dbd0a6edddd52d25.js",
     "service-worker.js": "/PixabayAPI/service-worker.js",
-    "static/js/2.bc9a87cf.chunk.js.LICENSE.txt": "/PixabayAPI/static/js/2.bc9a87cf.chunk.js.LICENSE.txt"
+    "static/js/2.27f7220a.chunk.js.LICENSE.txt": "/PixabayAPI/static/js/2.27f7220a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9461853.js",
-    "static/js/2.bc9a87cf.chunk.js",
-    "static/js/main.e5d01700.chunk.js"
+    "static/js/2.27f7220a.chunk.js",
+    "static/js/main.914de7ad.chunk.js"
   ]
 }
