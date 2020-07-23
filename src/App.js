@@ -19,12 +19,11 @@ function App() {
       const result = await response.json();
 
       setImagenes(result.hits);
-      console.log(result);
+
       const calcularTotalPaginas = Math.ceil(
         result.totalHits / imagenesPorPagina
       );
       setTotalPaginas(calcularTotalPaginas);
-
       const jumbotron = document.querySelector(".jumbotron");
       jumbotron.scrollIntoView({ behavior: "smooth" })
     };
