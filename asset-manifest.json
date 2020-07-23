@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Citas/static/js/main.5b291036.chunk.js",
-    "main.js.map": "/Citas/static/js/main.5b291036.chunk.js.map",
-    "runtime-main.js": "/Citas/static/js/runtime-main.d4274558.js",
-    "runtime-main.js.map": "/Citas/static/js/runtime-main.d4274558.js.map",
-    "static/js/2.c129351f.chunk.js": "/Citas/static/js/2.c129351f.chunk.js",
-    "static/js/2.c129351f.chunk.js.map": "/Citas/static/js/2.c129351f.chunk.js.map",
-    "index.html": "/Citas/index.html",
-    "precache-manifest.24c57c122a8b03e43e98a065cf74a6e5.js": "/Citas/precache-manifest.24c57c122a8b03e43e98a065cf74a6e5.js",
-    "service-worker.js": "/Citas/service-worker.js",
-    "static/js/2.c129351f.chunk.js.LICENSE.txt": "/Citas/static/js/2.c129351f.chunk.js.LICENSE.txt"
+    "main.js": "/PixabayAPI/static/js/main.9daab796.chunk.js",
+    "main.js.map": "/PixabayAPI/static/js/main.9daab796.chunk.js.map",
+    "runtime-main.js": "/PixabayAPI/static/js/runtime-main.b9461853.js",
+    "runtime-main.js.map": "/PixabayAPI/static/js/runtime-main.b9461853.js.map",
+    "static/js/2.c129351f.chunk.js": "/PixabayAPI/static/js/2.c129351f.chunk.js",
+    "static/js/2.c129351f.chunk.js.map": "/PixabayAPI/static/js/2.c129351f.chunk.js.map",
+    "index.html": "/PixabayAPI/index.html",
+    "precache-manifest.46b1e80d7b1f110f264ce2be326d2539.js": "/PixabayAPI/precache-manifest.46b1e80d7b1f110f264ce2be326d2539.js",
+    "service-worker.js": "/PixabayAPI/service-worker.js",
+    "static/js/2.c129351f.chunk.js.LICENSE.txt": "/PixabayAPI/static/js/2.c129351f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4274558.js",
+    "static/js/runtime-main.b9461853.js",
     "static/js/2.c129351f.chunk.js",
-    "static/js/main.5b291036.chunk.js"
+    "static/js/main.9daab796.chunk.js"
   ]
 }
