@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Citas/static/js/main.5b291036.chunk.js",
+    "main.js.map": "/Citas/static/js/main.5b291036.chunk.js.map",
+    "runtime-main.js": "/Citas/static/js/runtime-main.d4274558.js",
+    "runtime-main.js.map": "/Citas/static/js/runtime-main.d4274558.js.map",
+    "static/js/2.c129351f.chunk.js": "/Citas/static/js/2.c129351f.chunk.js",
+    "static/js/2.c129351f.chunk.js.map": "/Citas/static/js/2.c129351f.chunk.js.map",
+    "index.html": "/Citas/index.html",
+    "precache-manifest.24c57c122a8b03e43e98a065cf74a6e5.js": "/Citas/precache-manifest.24c57c122a8b03e43e98a065cf74a6e5.js",
+    "service-worker.js": "/Citas/service-worker.js",
+    "static/js/2.c129351f.chunk.js.LICENSE.txt": "/Citas/static/js/2.c129351f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4274558.js",
+    "static/js/2.c129351f.chunk.js",
+    "static/js/main.5b291036.chunk.js"
+  ]
+}
