@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b70d491f54f06b3da4739e745e4ec64",
+    "revision": "42af3c0ef31772f05b1cbe7c3122775f",
     "url": "/PixabayAPI/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PixabayAPI/static/js/2.c129351f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24f9849cb2ae54152039",
-    "url": "/PixabayAPI/static/js/main.9daab796.chunk.js"
+    "revision": "e63ac5e5fe06ac3a66ff",
+    "url": "/PixabayAPI/static/js/main.42b53b2e.chunk.js"
   },
   {
     "revision": "c42089b972c30712b784",
