@@ -19,7 +19,6 @@ function App() {
       const result = await response.json();
 
       setImagenes(result.hits);
-      console.log(result)
     }
     consultarApi();
 
