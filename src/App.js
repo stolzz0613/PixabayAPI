@@ -48,24 +48,24 @@ function App() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <p className="lead text-center">Buscador de Images</p>
+        <h1 className="text-center">Buscador de Images</h1>
         <Formulario setBusqueda={setBusqueda} />
       </div>
-      <div className="row justify-content-center">
+      
         <ListadoImagenes imagenes={imagenes} />
-
+        <div className="row justify-content-center">
         {(pagina === 1) ? null : (
           <button
             type="button"
-            className="btn btn-info mr-1"
+            className="btn btn-outline-info btn-lg mr-1"
             onClick={paginaAnterior}
           >&laquo; Anterior</button>
         )}
 
         {(pagina === totalPaginas) ? null : (
           <button
-            type="button"
-            className="btn btn-info mr-1"
+            type="button mx-auto"
+            className="btn btn-outline-success"
             onClick={paginaSiguiente}
           >Siguiente &raquo;</button>
         )}

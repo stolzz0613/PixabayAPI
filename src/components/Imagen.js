@@ -7,21 +7,25 @@ const Imagen = ({ imagen }) => {
 
     return (
 
-        <div className="card">
-            <img src={previewURL} alt={tags} className="card-img-top h-75 w-100" />
+        <div className="card border-primary">
+            <img src={previewURL} alt={tags} className="card-img-top" />
             <div className="card-body">
-                <p className="card-text">{likes} Me Gusta</p>
-                <p className="card-text">{views} Vistas</p>
+                <button type="button" className="btn btn-outline-info btn-block">
+                    Me Gusta <span className="badge badge-outline-light">{likes}</span>
+                </button>
+                <button type="button" className="btn btn-outline-info btn-block">
+                    Vistas <span className="badge badge-outline-light">{views}</span>
+                </button>
             </div>
             <div className="card-footer">
                 <a
                     href={largeImageURL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary btn-block"
+                    className="btn btn-warning btn-block"
                 >Ver Imagen</a>
             </div>
-        </div>
+        </div >
 
     );
 }
