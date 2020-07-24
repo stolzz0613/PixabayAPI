@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PixabayAPI/precache-manifest.9fad492bb9581780db00ecb33d1ed3e8.js"
+  "/PixabayAPI/precache-manifest.3b2c5809a73ac2e52f7ed4f99d64e416.js"
 );
 
 self.addEventListener('message', (event) => {
